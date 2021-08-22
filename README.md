@@ -14,3 +14,9 @@ The Bugstick will release as a fully functional bot for a whole month to get fee
 - [ ] Add new commands
 - [ ] Optimise code
 - [ ] Review code & improve
+
+
+### Packages Used
+- [Discord.JS](https://discord.js.org/)
+- [Nodemon](https://www.npmjs.com/package/nodemon) (For Developent)
+- [Node-Fetch](https://www.npmjs.com/package/node-fetch) (For API like Weather)
