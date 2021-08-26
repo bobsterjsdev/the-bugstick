@@ -54,7 +54,7 @@ module.exports = {
             message.reply({embeds: [wordembed4]})
             return
           }
-    };
+    }
 
     // message is provided only for a legacy command
     },
