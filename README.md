@@ -10,10 +10,10 @@ You can join this [discord](https://discord.gg/78DMCjZatu) to test the bot and s
 The Bugstick will release as a fully functional bot for a whole month to get feedback on the bot and fix bugs/issues. After the month the bot source files will be released to the public so you yourself can make a home-hosted one or contribute via pull requests. All will be accepted
  
 ### Roadmap
-- [ ] Add old commands
-- [ ] Remaster old commands
-- [ ] Add new commands
-- [ ] Optimise code
+- [x] Add old commands
+- [x] Remaster old commands
+- [x] Add new commands
+- [x] Optimise code
 - [ ] Review code & improve
 
 
