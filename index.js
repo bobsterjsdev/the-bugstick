@@ -1,5 +1,6 @@
 const DiscordJS = require('discord.js')
 const WOKCommands = require('wokcommands')
+require('dotenv').config({path: __dirname + '/.env'})
 const path = require('path')
 
 const { Intents } = DiscordJS
@@ -31,6 +32,12 @@ client.on('ready', () => {
 
   })
   .setDefaultPrefix('.')
+  .setBotOwner(['359755774873960450'])
+
+  client.user.setActivity("the time fly by | .help", {
+    type: "WATCHING",
+  });
+  client.user.setStatus('online')
 })
 
-client.login('NDM3MjczMjI0OTAxMDMzOTg1.WttYbA.n0-7d80X21LQVRrcP_pVHJkXVLg')
+client.login(process.env.TOKEN)

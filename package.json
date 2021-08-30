@@ -19,6 +19,7 @@
   "homepage": "https://github.com/bobsterjsdev/the-bugstick#readme",
   "dependencies": {
     "discord-math": "^1.0.5",
+    "dotenv": "^10.0.0",
     "node": "16.6.1",
     "random-words": "^1.1.1",
     "weather-js": "^2.0.0",
