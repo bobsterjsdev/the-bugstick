@@ -14,6 +14,7 @@ module.exports = {
         .addField('Info', '- .userinfo\n- .serverinfo', true)
         .addField('Fun', '- .randomword\n- .8ball\n- .weather', true)
         .addField('Maths', '- .add\n- .subtract\n- .multiply\n- .divide', true)
+        .addField('Maths', 'The Bugstick was created by BobsterJS & gamers. For support join [here](https://discord.gg/78DMCjZatu)', true)
 		.setTimestamp(Date.now());
 
       // message is provided only for a legacy command

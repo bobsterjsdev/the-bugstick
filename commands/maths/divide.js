@@ -5,7 +5,7 @@ module.exports = {
     category: 'Testing',
     description: 'Replies with a random word', // Required for slash commands
     slash: false, // Create both a slash and legacy command
-    testOnly: true, // Only register a slash command for the testing guilds
+    testOnly: false, // Only register a slash command for the testing guilds
     callback: ({ client, message, args, interaction }) => {
         let num1 = Number(args[0]);
 		let num2 = Number(args[1]);
