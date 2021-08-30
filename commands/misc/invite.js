@@ -8,12 +8,8 @@ module.exports = {
     callback: ({ client, message, interaction }) => {
         const embed = new DiscordJS.MessageEmbed()
         .setColor('RANDOM')
-	    .setTitle('Help Information')
-        .setDescription('Below is the command list')
-        .addField('Misc', '- .help\n- .ping\n- .uptime', true)
-        .addField('Info', '- .userinfo\n- .serverinfo', true)
-        .addField('Fun', '- .randomword\n- .8ball\n- .weather', true)
-        .addField('Maths', '- .add\n- .subtract\n- .multiply\n- .divide', true)
+	    .setTitle('Invite')
+        .setDescription('Server Invite: https://discord.gg/78DMCjZatu')
 		.setTimestamp(Date.now());
 
       // message is provided only for a legacy command

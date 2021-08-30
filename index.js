@@ -33,4 +33,4 @@ client.on('ready', () => {
   .setDefaultPrefix('.')
 })
 
-client.login('NDM3MjczMjI0OTAxMDMzOTg1.WttYbA.r4ofqcBvnjUe5ofPj_Vp6LqHM8w')
+client.login('NDM3MjczMjI0OTAxMDMzOTg1.WttYbA.n0-7d80X21LQVRrcP_pVHJkXVLg')
