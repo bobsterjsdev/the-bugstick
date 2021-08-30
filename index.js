@@ -1,3 +1,5 @@
+
+const mySecret = process.env['TOKEN']
 const DiscordJS = require('discord.js')
 const WOKCommands = require('wokcommands')
 require('dotenv').config({path: __dirname + '/.env'})
@@ -40,4 +42,4 @@ client.on('ready', () => {
   client.user.setStatus('online')
 })
 
-client.login(process.env.TOKEN)
+client.login(mySecret)
